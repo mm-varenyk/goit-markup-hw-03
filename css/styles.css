@@ -93,6 +93,7 @@ address {
 }
 
 .logo {
+  display: block;
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -113,6 +114,7 @@ address {
 }
 
 .menu-link {
+  display: block;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -134,6 +136,7 @@ address {
 }
 
 .contacts-link {
+  display: block;
   color: #434455;
 }
 
@@ -232,7 +235,7 @@ address {
   flex-basis: calc((100% - 3 * 24px) / 4);
   background: #ffffff;
   text-align: center;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
   border-radius: 0px 0px 4px 4px;
 }
 
